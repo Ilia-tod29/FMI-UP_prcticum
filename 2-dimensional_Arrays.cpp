@@ -37,7 +37,7 @@ int main() {
             if (j < i) {
                 sumUnderMainDiagonal += twoDimArr[i][j];
             }
-            if (j < i) {
+            if (j > i) {
                 sumOverMainDiagonal += twoDimArr[i][j];
             }
             if ((i + j) == (n - 1)) {
